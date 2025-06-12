@@ -12,8 +12,6 @@ module cache_tb;
   wire hit, miss;
   wire [3:0] state_out;
   
-
-
   cache_controller uut (
     .clk(clk),
     .rst(rst),
