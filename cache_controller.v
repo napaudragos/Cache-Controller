@@ -12,6 +12,7 @@ module cache_controller(
   output wire [3:0] state_out
 );
 
+
   localparam CACHE_SIZE = 32 * 1024;    
   localparam BLOCK_SIZE = 64;            
   localparam SETS = 128;           
